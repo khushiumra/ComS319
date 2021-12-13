@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<style> .errorMessage{color: red;} </style>
+
+   <script src = "./validation1.js"></script>
+
+</head>
+
+<body>
+
+    <title> Validation Form </title>
+
+
+<form id='PersonalInfo' action="validation2.html">
+
+    <fieldset> 
+
+<label for="fname">First name:</label>
+
+<input type="text" id="fname" name="fname" required>
+
+<img id='finalFNAME' height="12px">
+
+<br>
+
+<br>
+
+<label for="lname">Last name:</label>
+
+<input type="text" id="lname" name="lname" required>
+
+<img id='finalLNAME' height="12px">
+
+<br>
+
+<br>
+
+<label for="gender">Gender:</label>
+
+<select id="gender" name="gender">
+
+<option value="select">Select</option>
+
+<option value="Female">Female</option>
+
+<option value="Male">Male</option>
+
+</select>
+
+<img id='finalGENDER' height="12px">
+
+<br>
+
+<br>
+
+<label for="state">State:</label>
+
+<select name="state" id="state">
+
+<option value="select">Select</option>
+
+<option value="California">California</option>
+
+<option value="Florida">Florida</option>
+
+<option value="New York">New York</option>
+
+<option value="Texas">Texas</option>
+
+<option value="Hawaii">Hawaii</option>
+
+<option value="Washington">Washington</option>
+
+<option value="Colorado">Colorado</option>
+
+<option value="Virginia">Virginia</option>
+
+<option value="Iowa">Iowa</option>
+
+<option value="Arizona">Arizona</option>
+
+</select>
+
+<img id='finalSTATE' height="12px">
+
+<br>
+
+<br>
+
+<input type="button" value="Continue" onclick="validate()">
+
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
